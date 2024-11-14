@@ -1,0 +1,351 @@
+
+
+body {
+    background-color: #c0ccd3;
+    font-family: 'Arial', sans-serif;
+    text-align: center; 
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+  .container {
+    max-width: 600px;
+    margin-top: 50px;
+    align-items: center;
+    margin: 90px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  form {
+    background-color: #cdd8e0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  ul li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  ul li button {
+    margin-left: 10px;
+  }
+ 
+
+table {
+    width: 1000px;
+    background-color: #fff;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  table thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  table th,
+  table td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  table tbody tr {
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.3s;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  table tbody tr:last-child {
+    border-bottom: none;
+  }
+  
+  .btn {
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  }
+  
+  .btn-warning:hover,
+  .btn-danger:hover {
+    opacity: 0.8;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  .dashboard-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  .chart-container {
+    margin-bottom: 40px;
+  }
+  
+  .product-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    margin-bottom: 20px;
+    color: #495057;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    width: 800px;
+  }
+ 
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+  }
+  
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-list {
+    margin-top: 20px;
+  }
+  
+  .product-list th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .product-list td {
+    vertical-align: middle;
+  }
+  nav{
+
+    text-decoration: none;
+
+    
+  }
+  .btn btn-primary mr-2{
+    text-decoration: none;
+    border: 1px solid;
+  }
+  .navigation-links {
+  display: flex;
+  justify-content: center; /* Center align links */
+  margin-bottom: 20px; /* Space below the navigation */
+}
+
+.nav-link {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text */
+  padding: 10px 15px; /* Add some padding */
+  margin: 0 10px; /* Space between links */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  margin-right: 150px;
+}
+
+.nav-link:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+div{width: 1000px;
+}
+
+.container1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+.container2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+div.container2{width: 5000px;
+
+padding: 55px;}
+
+.header {
+  color: #007bff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.marquee {
+  font-size: 1.2rem;
+}
+
+.form-title1 {
+  color: #495057;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 750px;
+}
+
+.form-group1 label {
+  font-weight: bold;
+  color: #495057;
+  margin-bottom: 8px;
+}
+
+.form-control1 {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s;
+}
+
+.form-control1:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.button[type="submit"]:focus {
+  outline: none;
+  background-color: #004085;
+}
+
+@media (max-width: 600px) {
+  .container1 {
+      padding: 20px;
+      width: 90%;
+  }
+
+  .form-title1 {
+      font-size: 1.5rem;
+  }
+
+  .header {
+      font-size: 2rem;
+  }
+}
+h1{
+  text-align: end;
+  margin-right: 0 px;
+}
+p{
+  text-align: right;
+}
+div{
+width: 1000px;
+}
+/* Dashboard.css */
+.carousel .slide img {
+  width: 100%; /* Ensure image takes the full width of its container */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Cover the container without distortion */
+}
+

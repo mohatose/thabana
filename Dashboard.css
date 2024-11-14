@@ -1,0 +1,102 @@
+.dashboard-container {
+    max-width: 800px; /* Max width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .dashboard-title {
+    text-align: center; /* Center align the title */
+    color: #343a40; /* Dark gray color */
+    font-size: 2rem; /* Font size for title */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  .navigation-container {
+    border: 2px solid #007bff; /* Border color matching the link color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the border */
+    margin-bottom: 20px; /* Space below the navigation */
+    display: flex;
+    justify-content: center; /* Center align the links */
+    background-color: #1024d6; /* Light background for contrast */
+  }
+  
+  .navigation-links {
+    display: flex; /* Flexbox for layout */
+  }
+  
+  .nav-link {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: rgb(248, 248, 248); /* White text */
+    padding: 10px 15px; /* Add some padding */
+    margin: 0 10px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-link:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .chart-title {
+    text-align: center; /* Center align the chart title */
+    color: #343a40; /* Dark gray color */
+    font-size: 1.5rem; /* Font size for chart title */
+    margin-bottom: 20px; /* Space below the chart title */
+  }
+  
+  .chart-container {
+    height: 400px; /* Height for the chart */
+    padding: 20px; /* Padding for chart */
+    background-color: white; /* White background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    
+  }
+  li{
+    display: inline-block;  }
+  /* Add this CSS file for inline-block styling */
+
+.nav-links {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+  display: inline-block; /* Display list items inline */
+  margin-right: 10px; /* Add some space between links */
+}
+
+.nav-links li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Link color */
+}
+
+.nav-links li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+.container mt-4{
+  width: 5000px;
+}
+.hello{
+  width: 28%;
+}
+/* Dashboard.css */
+.carousel .slide img {
+  width: 100%; /* Ensure image takes the full width of its container */
+  height: 79px; /* Maintain the aspect ratio */
+  object-fit: cover; /* Cover the container without distortion */
+
+}
+body{
+  padding-top: 300px;
+}
